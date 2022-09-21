@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: white;
+}
+.conteudo{
+    left: 50%;
+    margin: 0 0 0 -250px;
+    position:absolute;
+    width: 485px;
+    height: 56px;
+    border: 3px solid red;
+}
+.conteudo header{
+    position: relative;
+}
+h2{
+    width: 100px;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-left: 32%;
+}
+.btn-ant, .btn-pro{
+    position: absolute;
+    top: 50%;
+    height: 30px;
+    width: 40px;
+    line-height: 32px;
+    margin-top: -10px;
+    border-radius: 30%;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+    background: black;
+}
+.btn-ant{
+    left: 80px;
+}
+.btn-pro{
+    right: 80px;
+}
+.btn-ant:hover, .btn-pro:hover{
+    background: aqua;
+    color: black;
+}
+.calendario table{
+    
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.calendario thead{
+    background: white;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+.calendario td{
+    border:1px solid black;
+    height: 71px;
+    text-align: center;
+    width: 70px;
+}
+.calendario td:hover{
+    background: aqua;
+}
+.dia-atual{
+    background: grey;
+    color: wheat;
+}
